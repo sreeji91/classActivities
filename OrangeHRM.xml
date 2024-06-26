@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<parameter name="UserName" value="Admin"></parameter>
+<parameter name="password" value="admin123"></parameter>
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testNGTestCases.OrangeHRMLoginTC"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->

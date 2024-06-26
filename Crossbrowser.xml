@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="2" parallel="tests">
+<!-- <parameter name="url" value="https://selenium.qabible.in/"></parameter>
+  <parameter name="browser" value="chrome"></parameter> -->
+ <!--  <test  name="Test1">
+    <classes>
+       <class name="testNGTestCases.checkBoxTC"/>
+    </classes>
+  </test> Test
+  <test  name="Test2">
+    <classes>
+    <class name="testNGTestCases.DropdownTC"/>
+     
+    </classes>
+  </test> --> 
+  <test  name="Test3">
+  <parameter name="urlTest3" value="https://www.saucedemo.com/v1/"></parameter>
+  <parameter name="browserTest3" value="chrome"></parameter>
+  <groups>
+  <run>
+  <include name="smokeTest"></include>
+  <include name="Regression"></include>
+  </run>
+  </groups>
+    <classes>
+    <class name="testNGTestCases.EnterValue"/>
+     
+    </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="testNGTestCases.DropdownTC"/>
+      <class name="testNGTestCases.checkBoxTC"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
